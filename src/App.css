@@ -1,0 +1,13 @@
+/* App-level styles */
+#root {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth scroll offset for fixed header */
+section {
+  scroll-margin-top: 64px;
+}
