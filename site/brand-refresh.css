@@ -1,0 +1,260 @@
+:root{--sans:'Manrope','Noto Sans TC',sans-serif}
+body,.brand-mark,.tab,.search input,.condition,.maker-tab,.repair-price-tab{font-family:var(--sans)}
+body{line-height:1.7;letter-spacing:.005em}
+.hero h1{letter-spacing:-.045em;line-height:1.12}
+.hero-art{isolation:isolate}
+.phone-18{background:linear-gradient(145deg,#e1e7df,#a7b3a6);border-color:#c1c9c0;box-shadow:0 24px 70px #0009, inset 0 0 0 1px #ffffffa8}
+.phone-18 .camera{background:linear-gradient(140deg,#d3d9d0,#a2ada1);border-color:#75807577}
+.phone-18 .apple{color:#687568;font-size:25px;left:46%;top:47%}
+.device-label{position:absolute;right:15px;bottom:17px;color:#59655a;font:600 10px var(--mono);letter-spacing:.16em}
+.foldable{position:absolute;z-index:1;width:274px;height:324px;right:18%;top:50%;transform:translate(42%,-50%) rotate(8deg);display:grid;grid-template-columns:1fr 8px 1fr;padding:7px;border:1px solid #aab5a4;border-radius:28px;background:linear-gradient(145deg,#d8e0d1,#87947f);box-shadow:0 30px 80px #0009,inset 0 1px 1px #fff;overflow:hidden}
+.fold-screen{position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 60% 35%,#c9fa7877,transparent 52%),linear-gradient(145deg,#151d17,#4b6040 70%,#849365);color:#eaf1df}
+.fold-screen-left{border-radius:20px 4px 4px 20px}.fold-screen-right{border-radius:4px 20px 20px 4px}
+.fold-screen-left>span{font-size:25px;line-height:1.4;letter-spacing:-.08em;text-align:center}.fold-screen-left b{font-size:34px;color:var(--lime)}
+.fold-hinge{z-index:2;background:linear-gradient(90deg,#5b6658,#c0cbb8 45%,#576354);box-shadow:0 0 8px #0006}
+.fold-symbol{font-size:46px;color:#d7f49f;text-shadow:0 0 26px #c8fb4a55}
+.fold-label{position:absolute;left:0;right:0;bottom:11px;text-align:center;color:#d5ddcf;font:8px var(--mono);letter-spacing:.12em;text-shadow:0 1px 3px #000}
+.float-tag{z-index:3;backdrop-filter:blur(8px)}
+.service-card,.price-card,.visit-store-photo{transition:transform .22s ease,box-shadow .22s ease}
+.service-card:hover,.price-card:hover,.visit-store-photo:hover{transform:translateY(-3px);box-shadow:0 14px 32px #15201512}
+.button{transition:background-color .2s ease,transform .2s ease}.button:hover{transform:translateY(-1px)}
+.visit-store-media img{transition:transform .35s ease}.visit-store-photo:hover img{transform:scale(1.018)}
+@media(max-width:900px){.foldable{width:240px;height:294px;right:16%;transform:translate(42%,-50%) rotate(8deg)}.hero-art{overflow:visible}.float-tag{right:0}}
+@media(max-width:680px){.hero-art{height:340px;overflow:hidden}.foldable{width:218px;height:266px;right:20%;top:49%;transform:translate(38%,-50%) rotate(7deg)}.fold-screen-left>span{font-size:20px}.fold-screen-left b{font-size:28px}.fold-symbol{font-size:36px}.device-label{font-size:9px}.hero-foot{letter-spacing:.06em}.service-card:hover,.price-card:hover,.visit-store-photo:hover{transform:none;box-shadow:none}}
+
+/* Real product visual for the refreshed hero */
+.hero-art{height:500px;min-width:0;isolation:auto;display:flex;align-items:center;justify-content:center}
+.product-glow{position:absolute;z-index:-1;width:min(88%,470px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#9eb87925 0%,#6f835018 47%,transparent 72%)}
+.product-frame{position:relative;width:100%;max-width:570px;display:grid;place-items:center}
+.iphone-product{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;filter:drop-shadow(0 26px 34px #0005);mix-blend-mode:screen}
+.product-colors{position:absolute;left:50%;bottom:43px;transform:translateX(-50%);display:flex;gap:10px;padding:9px 13px;border:1px solid #ffffff20;border-radius:999px;background:#121912d9;backdrop-filter:blur(12px);white-space:nowrap;color:#e9eee5;font-size:10px;letter-spacing:.04em}
+.product-colors>span{display:flex;align-items:center;gap:6px}.swatch{width:9px;height:9px;border-radius:50%;display:inline-block}.swatch-burgundy{background:#722d3a;box-shadow:0 0 0 1px #ffffff5c}.swatch-glacier{background:#b4d5e7;box-shadow:0 0 0 1px #ffffff75}
+@media(max-width:900px){.hero-art{height:410px;transform:none}.iphone-product{max-height:370px}.product-colors{bottom:30px}}
+@media(max-width:680px){.hero-art{height:330px;margin-top:6px;overflow:visible}.product-frame{width:112%;max-width:480px}.iphone-product{max-height:300px}.product-colors{bottom:26px;font-size:9px;padding:8px 11px}.art-caption{bottom:1px;font-size:7px}}
+
+.wechat-dialog{position:fixed;inset:0;margin:auto;padding:30px 30px 24px;width:min(92vw,480px);max-height:min(92dvh,820px);overflow:auto;border:1px solid #dfe5d9;border-radius:22px;background:#f7f8f3;color:#182119;box-shadow:0 24px 90px #0006}
+.wechat-dialog::backdrop{background:#071009bf;backdrop-filter:blur(5px)}
+.wechat-dialog-copy{text-align:center;padding:1px 24px 18px}
+.wechat-dialog-copy .eyebrow{justify-content:center;color:#84907f;font-size:9px}
+.wechat-dialog-copy h2{font-size:26px;letter-spacing:-.05em;margin:9px 0 4px}
+.wechat-dialog-copy p{margin:0;color:#424b40;font-size:12px}
+.wechat-dialog-copy small{display:block;margin-top:7px;color:#838b80;font-size:10px}
+.wechat-dialog>img{display:block;width:min(100%,360px);height:auto;margin:0 auto;border-radius:12px;background:#fff}
+.wechat-close{position:absolute;top:12px;right:13px;width:34px;height:34px;border:0;border-radius:50%;background:#e9ece5;color:#384235;font-size:24px;line-height:1;cursor:pointer}
+.wechat-inline{margin-left:10px;padding:0;border:0;border-bottom:1px solid currentColor;background:none;color:#c8fb4a;font:inherit;font-size:11px;cursor:pointer}
+.mobile-bar .wechat-open{border:0;background:var(--lime);font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+@media(max-width:680px){.wechat-dialog{width:min(94vw,430px);padding:26px 17px 17px;border-radius:18px}.wechat-dialog-copy h2{font-size:23px}.wechat-dialog>img{width:min(100%,320px)}}
+
+.price-region-note{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 22px;padding:15px 18px;border-left:4px solid #97c83a;background:#e5f3cf;color:#27351f}
+.price-region-note strong{font-size:13px;letter-spacing:.02em}
+.price-region-note p{margin:4px 0 0;color:#596451;font-size:11px;line-height:1.7}
+.price-region-note button{flex:none;border:0;background:#1d261d;color:#f1f4eb;padding:10px 13px;font:600 10px var(--sans);cursor:pointer}
+.price-region-note button span{margin-left:10px;color:var(--lime)}
+.repair-extra{grid-column:1/-1;margin-top:10px;padding-top:25px;border-top:1px solid #d5d9d0}
+.repair-extra-heading{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:15px}
+.repair-extra-heading .eyebrow{font-size:9px}
+.repair-extra-heading h3{margin:7px 0 0;font-size:23px;letter-spacing:-.05em}
+.repair-extra-heading>span{padding-bottom:3px;color:#858c81;font-size:10px}
+.repair-device-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.repair-device{min-height:86px;padding:12px 13px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:8px;border:1px solid #dce0d7;background:#f7f8f4;color:#20281f;text-align:left;cursor:pointer;transition:background .18s,border-color .18s,transform .18s}
+.repair-device:hover{background:#e6f3d2;border-color:#b4d28d;transform:translateY(-2px)}
+.repair-device>span{color:#8b9486;font:9px var(--mono)}
+.repair-device>b{font-size:11px}
+.repair-device>i{align-self:flex-end;color:#769623;font-style:normal;font-size:13px}
+.repair-wechat-note{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px;padding:14px 16px;background:#1c241c;color:#eef1e9}
+.repair-wechat-note p{margin:0;color:#c1c9bb;font-size:11px;line-height:1.7}
+.repair-wechat-button{flex:none;border:0;background:var(--lime);color:#1d261a;padding:10px 13px;font:700 10px var(--sans);cursor:pointer}
+.repair-wechat-button span{margin-left:9px}
+@media(max-width:900px){.repair-device-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:680px){.price-region-note{align-items:flex-start;padding:13px;gap:10px}.price-region-note strong{font-size:12px}.price-region-note p{font-size:10px}.price-region-note button{padding:9px 10px;font-size:9px}.repair-extra{margin-top:28px;padding-top:22px}.repair-extra-heading{align-items:flex-start;display:block}.repair-extra-heading h3{font-size:20px}.repair-extra-heading>span{display:block;margin-top:8px}.repair-device-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.repair-device{min-height:76px;padding:10px}.repair-wechat-note{align-items:flex-start;flex-direction:column;padding:13px}.repair-wechat-button{align-self:flex-end}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* Site-wide scale and polish */
+body{font-size:16px;line-height:1.75}
+.topbar{height:86px}
+.brand{font-size:18px;gap:12px}
+.topbar nav{gap:38px;font-size:13px}
+.nav-call{font-size:13px}
+.hero{min-height:650px;padding-top:76px}
+.hero h1{font-size:clamp(50px,6.2vw,84px)}
+.hero-copy>p{font-size:15px;line-height:2.05;max-width:430px}
+.button{min-height:52px;padding-left:22px;padding-right:22px;font-size:13px}
+.hero-proof{gap:40px}
+.hero-proof>span{font-size:11px}
+.hero-proof b{font-size:22px}
+.ticker{height:52px}
+.ticker div{font-size:12px}
+.section{padding-top:116px;padding-bottom:116px}
+.section-head>p{font-size:13px;max-width:360px}
+.service-grid{gap:14px}
+.service-card{min-height:320px;padding:28px 28px 25px}
+.service-card h3{font-size:24px}
+.service-card p{font-size:12px;line-height:2;max-width:270px}
+.service-card>a{font-size:11px;left:28px}
+.price-inner{padding-top:108px;padding-bottom:108px}
+.price-note{font-size:11px}
+.price-note b{font-size:13px}
+.tab{font-size:12px;padding-top:17px;padding-bottom:16px}
+.search{width:245px}
+.search input{font-size:12px}
+.condition-row{height:62px;font-size:11px}
+.condition{font-size:11px;padding:7px 11px}
+.price-list{gap:12px;padding-top:17px}
+.price-card{padding:18px 19px 6px}
+.model-name{min-height:51px}
+.model-name>div b{font-size:13px}
+.model-name>div small{font-size:10px}
+.model-name>strong{font-size:18px}
+.variant{min-height:40px;font-size:11px}
+.variant>b{font-size:13px}
+.variant>a{font-size:10px}
+.price-footer{font-size:11px}
+.repair-copy>p{font-size:13px}
+.repair-price-head b{font-size:17px}
+.repair-price-head small,.repair-price-foot{font-size:12px}
+.repair-price-item{padding:12px 14px}
+.repair-price-item b{font-size:13px}
+.repair-price-item small{font-size:11px}
+.repair-price-item strong{font-size:16px}
+.repair-extra-heading h3{font-size:25px}
+.repair-device>b{font-size:12px}
+.repair-wechat-note p{font-size:12px}
+.visit-gallery-head p{font-size:13px}
+.visit-gallery-tip{font-size:11px}
+.visit-store-photo figcaption{font-size:12px}
+.visit-grid>div:first-child>p{font-size:12px}
+.visit-details>b{font-size:12px}
+footer{font-size:10px}
+@media(max-width:900px){.section{padding-top:96px;padding-bottom:96px}.service-card{padding:24px}.repair-device-grid{gap:10px}}
+@media(max-width:680px){body{font-size:15px}.topbar{height:70px}.brand{font-size:16px}.nav-call{font-size:11px}.hero{min-height:870px;padding-top:60px}.hero h1{font-size:56px}.hero-copy>p{font-size:13px;line-height:1.95}.button{min-height:50px;font-size:11px;padding-left:14px;padding-right:14px}.hero-proof{gap:28px}.hero-proof>span{font-size:10px}.hero-proof b{font-size:19px}.ticker{height:48px}.ticker div{font-size:11px}.section{padding:78px 6%}.section-head>p{font-size:12px}.section h2,.repair h2,.visit-grid h2{font-size:40px}.service-grid{gap:9px}.service-card{min-height:284px;padding:22px}.service-card h3{font-size:22px}.service-card p{font-size:12px;line-height:1.9}.service-card>a{left:22px;font-size:10px}.price-inner{padding-top:78px;padding-bottom:76px}.price-note{font-size:11px}.tab{font-size:12px;padding-top:14px;padding-bottom:13px}.search{width:100%}.search input{font-size:12px}.condition-row{height:58px}.condition{font-size:10px;padding:6px 8px}.price-list{gap:9px;padding-top:12px}.price-card{padding:15px 14px 5px}.model-name>div b{font-size:13px}.variant{min-height:39px;font-size:11px}.variant>b{font-size:13px}.repair-copy>p{font-size:12px}.repair-price-head b{font-size:15px}.repair-price-head small,.repair-price-foot{font-size:11px}.repair-price-item b{font-size:12px}.repair-price-item strong{font-size:15px}.repair-extra-heading h3{font-size:21px}.repair-device>b{font-size:11px}.visit-gallery-head p{font-size:11px}.visit-store-photo figcaption{font-size:11px}.visit-grid>div:first-child>p{font-size:12px}.visit-details>b{font-size:11px}footer{font-size:9px}}
+
+.price-region-note{margin-bottom:25px;padding:18px 21px;border-left:6px solid #c8fb4a;background:#182319;color:#f0f4eb;box-shadow:0 10px 26px #121a1212}.price-region-note strong{display:block;color:#c8fb4a;font-size:15px;letter-spacing:.03em}.price-region-note p{margin:6px 0 0;color:#e1e8db;font-size:13px;font-weight:600;line-height:1.8}.price-region-note button{background:#c8fb4a;color:#172013;font-size:11px;padding:12px 15px}@media(max-width:680px){.price-region-note{margin-bottom:20px;padding:15px 15px}.price-region-note strong{font-size:13px}.price-region-note p{font-size:11px}.price-region-note button{font-size:10px;padding:10px 11px}}
+
+.recycle-promo{display:flex;align-items:center;gap:18px;margin:-4px 0 16px;padding:17px 20px;background:#c8fb4a;color:#172013;box-shadow:0 12px 30px #15201515}.recycle-promo-mark{flex:none;padding:8px 11px;background:#172013;color:#c8fb4a;font:700 10px var(--mono);letter-spacing:.08em}.recycle-promo-copy{flex:1;min-width:0}.recycle-promo-copy strong{display:block;font-size:18px;letter-spacing:-.025em;line-height:1.3}.recycle-promo-copy p{margin:4px 0 0;color:#34412b;font-size:12px;font-weight:600;line-height:1.65}.recycle-promo-versions{flex:none;border-left:1px solid #17201335;padding-left:17px;font-size:12px;font-weight:800;white-space:nowrap}@media(max-width:680px){.recycle-promo{display:grid;grid-template-columns:max-content 1fr;grid-template-areas:"mark versions" "copy copy";align-items:center;gap:9px 12px;margin:-2px 0 13px;padding:13px}.recycle-promo-mark{grid-area:mark;padding:7px 8px;font-size:9px}.recycle-promo-copy{grid-area:copy}.recycle-promo-copy strong{font-size:15px}.recycle-promo-copy p{font-size:10px;line-height:1.65}.recycle-promo-versions{grid-area:versions;justify-self:end;margin-left:0;padding-left:0;border-left:0;align-self:center;font-size:10px;white-space:nowrap}}
+
+/* Larger site typography */
+body{font-size:17px}
+.eyebrow{font-size:11px}
+.topbar nav,.nav-call{font-size:14px}
+.hero .eyebrow{font-size:11px}
+.hero-copy>p{font-size:16px}
+.button{font-size:14px}
+.hero-proof>span{font-size:12px}
+.hero-proof b{font-size:23px}
+.ticker div{font-size:13px}
+.section-head>p{font-size:14px}
+.service-card h3{font-size:25px}
+.service-card p{font-size:13px}
+.service-card>a{font-size:12px}
+.price-note{font-size:12px}
+.price-note b{font-size:14px}
+.tab{font-size:13px}
+.search input{font-size:13px}
+.condition-row{font-size:12px}
+.condition{font-size:12px}
+.condition-hint{font-size:10px}
+.model-name>div b{font-size:14px}
+.model-name>div small{font-size:11px}
+.model-name>strong{font-size:19px}
+.variant{font-size:12px}
+.variant>b{font-size:14px}
+.variant>a{font-size:11px}
+.price-footer{font-size:12px}
+.repair-copy>p{font-size:14px}
+.repair-price-head b{font-size:18px}
+.repair-price-head small,.repair-price-foot{font-size:13px}
+.repair-price-item b{font-size:14px}
+.repair-price-item small{font-size:12px}
+.repair-price-item strong{font-size:17px}
+.repair-extra-heading>span{font-size:11px}
+.repair-device>b{font-size:13px}
+.repair-wechat-note p{font-size:13px}
+.visit-grid>div:first-child>p{font-size:13px}
+.detail-label{font-size:10px}
+.visit-details>b{font-size:13px}
+.visit-gallery-head p{font-size:14px}
+.visit-gallery-tip{font-size:12px}
+.visit-media-caption{font-size:13px}
+.visit-store-photo figcaption{font-size:13px}
+footer{font-size:11px}
+.mobile-bar a,.mobile-bar .wechat-open{font-size:13px}
+.recycle-promo-copy strong{font-size:20px}
+.recycle-promo-copy p,.recycle-promo-versions{font-size:13px}
+@media(max-width:900px){.section-head>p{font-size:13px}.visit-gallery-head p{font-size:13px}}
+@media(max-width:680px){body{font-size:16px}.hero-copy>p{font-size:14px}.button{font-size:12px}.hero-proof>span{font-size:11px}.section h2,.repair h2,.visit-grid h2{font-size:42px}.section-head>p{font-size:13px}.service-card h3{font-size:23px}.service-card p{font-size:13px}.service-card>a{font-size:11px}.price-note{font-size:12px}.tab{font-size:13px}.search input{font-size:13px}.condition-row{font-size:11px}.condition{font-size:11px}.condition-hint{font-size:9px}.model-name>div b{font-size:14px}.model-name>div small{font-size:11px}.variant{font-size:12px}.variant>b{font-size:14px}.variant>a{font-size:10px}.price-footer{font-size:11px}.repair-copy>p{font-size:13px}.repair-price-head b{font-size:16px}.repair-price-head small,.repair-price-foot{font-size:12px}.repair-price-item b{font-size:13px}.repair-price-item small{font-size:11px}.repair-price-item strong{font-size:16px}.repair-device>b{font-size:12px}.repair-wechat-note p{font-size:12px}.visit-grid>div:first-child>p{font-size:13px}.visit-details>b{font-size:12px}.visit-gallery-head p{font-size:12px}.visit-gallery-tip{font-size:11px}.visit-media-caption{font-size:12px}.visit-store-photo figcaption{font-size:12px}.recycle-promo-copy strong{font-size:16px}.recycle-promo-copy p,.recycle-promo-versions{font-size:11px}.mobile-bar a,.mobile-bar .wechat-open{font-size:12px}}
+
+
+/* Three official foldable and flagship product visuals */
+.hero-art{height:520px;min-height:0;overflow:visible;position:relative}
+.hero-device-lineup{position:relative;z-index:1;width:100%;height:100%;display:grid;grid-template-columns:.88fr 1.18fr .88fr;align-items:end;gap:0}
+.hero-device{position:relative;z-index:1;min-width:0;height:100%;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
+.hero-device-image{position:relative;width:100%;height:calc(100% - 58px);display:grid;place-items:center}
+.hero-device-image img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 22px 27px #0006);mix-blend-mode:screen}
+.hero-device-iphone{z-index:2}
+.hero-device-iphone .hero-device-image{height:calc(100% - 50px)}
+.hero-device-huawei,.hero-device-duo{padding-bottom:16px}
+.hero-device-huawei .hero-device-image,.hero-device-duo .hero-device-image{height:75%;}
+.hero-device figcaption{position:relative;z-index:3;display:grid;gap:2px;justify-items:center;min-height:52px;color:#edf2e8;text-align:center;white-space:nowrap;text-shadow:0 2px 12px #000}
+.hero-device figcaption strong{font-size:12px;letter-spacing:.01em}
+.hero-device figcaption span{font-size:9px;color:#aab4a5}
+.map-navigation{margin-top:20px}
+.map-navigation-title{margin-bottom:10px;color:#a9b3a4;font-size:11px;letter-spacing:.05em}
+.map-navigation-links{display:flex;flex-wrap:wrap;gap:8px}
+.map-navigation-links .button{min-height:44px;padding:0 15px}
+.map-navigation-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 14px;border:1px solid #78817566;color:#e7eee1;text-decoration:none;font-size:11px;transition:background .2s,border-color .2s,color .2s}
+.map-navigation-link span{color:var(--lime)}
+.map-navigation-link:hover{border-color:var(--lime);background:#c8fb4a12;color:var(--lime)}
+.map-navigation>small{display:block;margin-top:10px;color:#8e988b;font-size:10px;line-height:1.6}
+@media(max-width:900px){.hero-art{height:430px}.hero-device figcaption strong{font-size:11px}.hero-device figcaption span{font-size:8px}.map-navigation-links{gap:7px}}
+@media(max-width:680px){.hero-art{height:290px;min-height:0;margin:4px -2% 0;overflow:visible}.hero-device-lineup{grid-template-columns:.88fr 1.1fr .88fr;align-items:end}.hero-device-image{height:calc(100% - 44px)}.hero-device-iphone .hero-device-image{height:calc(100% - 42px)}.hero-device-huawei,.hero-device-duo{padding-bottom:9px}.hero-device-huawei .hero-device-image,.hero-device-duo .hero-device-image{height:76%}.hero-device figcaption{min-height:39px;gap:1px}.hero-device figcaption strong{font-size:9px}.hero-device figcaption span{font-size:7px;white-space:normal;max-width:100px;line-height:1.3}.map-navigation{margin-top:16px}.map-navigation-title{font-size:10px}.map-navigation-links{gap:6px}.map-navigation-links .button,.map-navigation-link{min-height:39px;padding:0 10px;font-size:10px}.map-navigation>small{font-size:9px}}
+
+.hero-device-huawei .hero-device-image img{width:155%;max-width:none;height:auto;transform:translateY(10px)}
+.hero-device-iphone .hero-device-image img{width:142%;max-width:none;height:auto}
+.hero-device-duo .hero-device-image img{width:108%;height:100%}
+@media(max-width:680px){.hero-device-huawei .hero-device-image img{width:165%}.hero-device-iphone .hero-device-image img{width:150%}.hero-device-duo .hero-device-image img{width:116%}}
+
+
+/* Balanced transparent device lineup, especially on phones */
+.hero-art{height:450px;overflow:visible}
+.hero-device-lineup{width:min(100%,650px);height:100%;margin:0 auto;grid-template-columns:.9fr 1.1fr .9fr;align-items:center}
+.hero-device{height:100%;padding:0;justify-content:center}
+.hero-device-image,.hero-device-iphone .hero-device-image,.hero-device-huawei .hero-device-image,.hero-device-duo .hero-device-image{width:100%;height:calc(100% - 52px);display:grid;place-items:center}
+.hero-device-image img,.hero-device-huawei .hero-device-image img,.hero-device-iphone .hero-device-image img,.hero-device-duo .hero-device-image img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;transform:none;mix-blend-mode:normal;filter:drop-shadow(0 16px 22px #0005)}
+.hero-device-huawei .hero-device-image img{width:120%;max-width:none}
+.hero-device-iphone .hero-device-image img{width:100%;max-width:100%}
+.hero-device-duo .hero-device-image img{width:92%;max-width:100%}
+.hero-device figcaption{min-height:52px;align-content:center}
+@media(max-width:900px){.hero-art{height:360px}.hero-device-huawei .hero-device-image img{width:120%}.hero-device-duo .hero-device-image img{width:92%}}
+@media(max-width:680px){
+.hero{min-height:0;padding-top:48px;padding-bottom:58px}
+.hero-art{height:230px;min-height:0;margin:18px -2% 0;overflow:hidden}
+.hero-device-lineup{width:100%;height:100%;grid-template-columns:.92fr 1.1fr .92fr;align-items:center}
+.hero-device{min-width:0;height:100%;padding:0;justify-content:center}
+.hero-device-image,.hero-device-iphone .hero-device-image,.hero-device-huawei .hero-device-image,.hero-device-duo .hero-device-image{height:176px;width:100%}
+.hero-device-image img,.hero-device-huawei .hero-device-image img,.hero-device-iphone .hero-device-image img,.hero-device-duo .hero-device-image img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;transform:none;mix-blend-mode:normal}
+.hero-device-huawei .hero-device-image img{width:126%;max-width:none}
+.hero-device-iphone .hero-device-image img{width:108%}
+.hero-device-duo .hero-device-image img{width:92%}
+.hero-device figcaption{min-height:42px;align-content:start;padding-top:3px;white-space:normal}
+.hero-device figcaption strong{font-size:9px}
+.hero-device figcaption span{font-size:7px;line-height:1.3}
+.hero-foot{bottom:14px;z-index:2}
+}
+
+@media(max-width:680px){.services .section-head h2{font-size:clamp(25px,8vw,34px);white-space:nowrap;letter-spacing:-.06em}}
+
+/* Keep the Duo centered and compact; expose map choices from the mobile bar. */
+.hero-device-huawei{order:1}
+.hero-device-duo{order:2}
+.hero-device-iphone{order:3}
+.hero-device-duo .hero-device-image img{width:78%;height:82%;max-width:100%;max-height:100%;object-fit:contain}
+@media(max-width:680px){.mobile-bar{grid-template-columns:repeat(3,minmax(0,1fr))}.mobile-bar a:nth-child(2){background:#e9ece4;color:#1c241c}.mobile-bar a:nth-child(3){background:var(--lime)}}
+
+.price-card-note{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:10px;row-gap:3px;margin:12px 0 3px;padding:11px 13px;background:#f1f6e3;border:1px solid #dce8bb;border-left:4px solid var(--lime);color:#34402d;font-size:11px;line-height:1.45}
+.price-card-note>strong,.price-card-note>span{grid-column:1}
+.price-card-note>strong{font-size:12px}
+.price-card-note>span{color:#68725f}
+.price-card-note>button{grid-column:2;grid-row:1/3;border:0;background:transparent;color:#526d24;font:700 11px var(--sans);white-space:nowrap;cursor:pointer}
+.price-card-note>button:hover{color:#26371b}
+@media(max-width:680px){.price-card-note{column-gap:4px;margin-top:10px;padding:9px 8px;font-size:9px}.price-card-note>strong{font-size:10px}.price-card-note>button{font-size:9px}}
