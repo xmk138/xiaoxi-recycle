@@ -1,5 +1,5 @@
 window.XMK_PRICES = {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "brands": [
     "苹果 iPhone",
     "安卓手机",
@@ -505,11 +505,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "256GB",
-          "good": 9500
+          "good": 9400
         },
         {
           "storage": "512GB",
-          "good": 11300
+          "good": 11100
         },
         {
           "storage": "1TB",
@@ -531,15 +531,15 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 9850
+          "good": 9550
         },
         {
           "storage": "1TB",
-          "good": 12100
+          "good": 11500
         },
         {
           "storage": "2TB",
-          "good": 12600
+          "good": 12000
         }
       ]
     },
@@ -549,11 +549,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "256GB",
-          "good": 6650
+          "good": 7000
         },
         {
           "storage": "512GB",
-          "good": 6950
+          "good": 7400
         },
         {
           "storage": "1TB",
@@ -561,7 +561,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "2TB",
-          "good": 9450
+          "good": 9700
         }
       ]
     },
@@ -571,15 +571,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "256GB",
-          "good": 5950
+          "good": 6200
         },
         {
           "storage": "512GB",
-          "good": 6550
+          "good": 7050
         },
         {
           "storage": "1TB",
-          "good": 7250
+          "good": 7000
         }
       ]
     },
@@ -625,7 +625,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 4950
+          "good": 5200
         }
       ]
     },
@@ -639,11 +639,11 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 5800
+          "good": 5500
         },
         {
           "storage": "1TB",
-          "good": 6250
+          "good": 5950
         }
       ]
     },
@@ -665,7 +665,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "1TB",
-          "good": 5400
+          "good": 5150
         }
       ]
     },
@@ -683,7 +683,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 4650
+          "good": 4500
         }
       ]
     },
@@ -701,7 +701,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 3400
+          "good": 4100
         }
       ]
     },
@@ -729,15 +729,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "256GB",
-          "good": 3950
+          "good": 3850
         },
         {
           "storage": "512GB",
-          "good": 4250
+          "good": 4150
         },
         {
           "storage": "1TB",
-          "good": 4450
+          "good": 4350
         }
       ]
     },
@@ -751,11 +751,11 @@ window.XMK_PRICES = {
         },
         {
           "storage": "256GB",
-          "good": 3450
+          "good": 3550
         },
         {
           "storage": "512GB",
-          "good": 3650
+          "good": 3750
         },
         {
           "storage": "1TB",
@@ -795,7 +795,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 3000
+          "good": 2850
         }
       ]
     },
@@ -805,7 +805,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "128GB",
-          "good": 3100
+          "good": 2900
         },
         {
           "storage": "256GB",
@@ -849,15 +849,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "128GB",
-          "good": 2150
+          "good": 2250
         },
         {
           "storage": "256GB",
-          "good": 2350
+          "good": 2450
         },
         {
           "storage": "512GB",
-          "good": 2600
+          "good": 2400
         }
       ]
     },
@@ -875,7 +875,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "512GB",
-          "good": 2300
+          "good": 2200
         }
       ]
     },
@@ -987,7 +987,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "256GB",
-          "good": 1600
+          "good": 1500
         },
         {
           "storage": "512GB",
@@ -1775,7 +1775,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 10300
+          "good": 10000
         }
       ]
     },
@@ -1785,15 +1785,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 5050
+          "good": 5350
         },
         {
           "storage": "12+512GB",
-          "good": 5950
+          "good": 6250
         },
         {
           "storage": "16+512GB",
-          "good": 6600
+          "good": 6100
         },
         {
           "storage": "16+1TB",
@@ -1815,7 +1815,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 5950
+          "good": 5650
         },
         {
           "storage": "16+1TB",
@@ -1877,7 +1877,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 3700
+          "good": 3450
         }
       ]
     },
@@ -1895,7 +1895,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 3050
+          "good": 2800
         },
         {
           "storage": "16+1TB",
@@ -1945,15 +1945,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+256GB",
-          "good": 8800
+          "good": 7700
         },
         {
           "storage": "16+512GB",
-          "good": 9800
+          "good": 8500
         },
         {
           "storage": "16+1TB",
-          "good": 10800
+          "good": 9300
         }
       ]
     },
@@ -1981,7 +1981,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 3200
+          "good": 5200
         }
       ]
     },
@@ -2035,11 +2035,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2400
+          "good": 1850
         },
         {
           "storage": "12+512GB",
-          "good": 2600
+          "good": 1800
         },
         {
           "storage": "16+512GB",
@@ -2203,7 +2203,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 6900
+          "good": 7300
         }
       ]
     },
@@ -2397,11 +2397,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 7800
+          "good": 8100
         },
         {
           "storage": "16+1TB",
-          "good": 8800
+          "good": 9000
         }
       ]
     },
@@ -3057,7 +3057,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2400
+          "good": 5400
         },
         {
           "storage": "16+512GB",
@@ -3071,11 +3071,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 5600
+          "good": 5800
         },
         {
           "storage": "16+1TB",
-          "good": 0
+          "good": 6050
         }
       ]
     },
@@ -3085,7 +3085,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 500
+          "good": 3500
         },
         {
           "storage": "12+512GB",
@@ -3093,7 +3093,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 0
+          "good": 3800
         }
       ]
     },
@@ -3111,7 +3111,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 700
+          "good": 7200
         }
       ]
     },
@@ -3121,11 +3121,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2050
+          "good": 3550
         },
         {
           "storage": "12+512GB",
-          "good": 2300
+          "good": 3850
         },
         {
           "storage": "16+512GB",
@@ -3133,7 +3133,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 2750
+          "good": 4900
         }
       ]
     },
@@ -3143,11 +3143,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2300
+          "good": 2800
         },
         {
           "storage": "12+512GB",
-          "good": 2500
+          "good": 3000
         },
         {
           "storage": "16+512GB",
@@ -3165,11 +3165,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 2850
-        },
-        {
-          "storage": "12+1TB",
-          "good": 2950
+          "good": 3000
         },
         {
           "storage": "16+1TB",
@@ -3197,11 +3193,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1400
+          "good": 2100
         },
         {
           "storage": "12+512GB",
-          "good": 1500
+          "good": 2200
         },
         {
           "storage": "12+1TB",
@@ -3215,15 +3211,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 900
+          "good": 1600
         },
         {
           "storage": "16+256GB",
-          "good": 2050
+          "good": 3000
         },
         {
           "storage": "12+512GB",
-          "good": 1100
+          "good": 1350
         },
         {
           "storage": "16+512GB",
@@ -3237,7 +3233,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 1050
+          "good": 2550
         },
         {
           "storage": "16+1TB",
@@ -3277,7 +3273,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1300
+          "good": 1450
         },
         {
           "storage": "12+512GB",
@@ -3291,11 +3287,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 500
+          "good": 1250
         },
         {
           "storage": "12+512GB",
-          "good": 600
+          "good": 1350
         },
         {
           "storage": "12+1TB",
@@ -3327,11 +3323,11 @@ window.XMK_PRICES = {
         },
         {
           "storage": "8+256GB",
-          "good": 250
+          "good": 750
         },
         {
           "storage": "8+512GB",
-          "good": 400
+          "good": 850
         }
       ]
     },
@@ -3341,7 +3337,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 1200
+          "good": 3650
         },
         {
           "storage": "16+1TB",
@@ -3355,7 +3351,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 1550
+          "good": 3000
         },
         {
           "storage": "12+1TB",
@@ -3409,7 +3405,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 300
+          "good": 2100
         },
         {
           "storage": "16+1TB",
@@ -3455,11 +3451,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 950
+          "good": 1400
         },
         {
           "storage": "12+512GB",
-          "good": 1100
+          "good": 1550
         },
         {
           "storage": "12+1TB",
@@ -3495,7 +3491,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "12+512GB",
-          "good": 0
+          "good": 1000
         }
       ]
     },
@@ -3505,15 +3501,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "8+128GB",
-          "good": 600
+          "good": 700
         },
         {
           "storage": "8+256GB",
-          "good": 200
+          "good": 750
         },
         {
           "storage": "8+512GB",
-          "good": 450
+          "good": 850
         }
       ]
     },
@@ -3651,11 +3647,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+512GB",
-          "good": 6500
+          "good": 6700
         },
         {
           "storage": "16+1TB",
-          "good": 7900
+          "good": 7700
         }
       ]
     },
@@ -3683,7 +3679,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 2300
+          "good": 2150
         }
       ]
     },
@@ -3693,7 +3689,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1800
+          "good": 1600
         },
         {
           "storage": "12+512GB",
@@ -3711,7 +3707,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 1800
+          "good": 1700
         }
       ]
     },
@@ -3763,11 +3759,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+512GB",
-          "good": 6150
+          "good": 6350
         },
         {
           "storage": "16+1TB",
-          "good": 7400
+          "good": 7600
         }
       ]
     },
@@ -3865,15 +3861,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2350
+          "good": 2150
         },
         {
           "storage": "12+512GB",
-          "good": 2500
+          "good": 2250
         },
         {
           "storage": "16+512GB",
-          "good": 2850
+          "good": 2450
         }
       ]
     },
@@ -3897,15 +3893,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2000
+          "good": 2100
         },
         {
           "storage": "12+512GB",
-          "good": 2250
+          "good": 2350
         },
         {
           "storage": "16+512GB",
-          "good": 2400
+          "good": 2300
         }
       ]
     },
@@ -3933,7 +3929,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+512GB",
-          "good": 1800
+          "good": 1700
         },
         {
           "storage": "16+1TB",
@@ -4051,11 +4047,11 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+256GB",
-          "good": 1200
+          "good": 1100
         },
         {
           "storage": "16+512GB",
-          "good": 1300
+          "good": 1200
         }
       ]
     },
@@ -4065,11 +4061,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "8+256GB",
-          "good": 800
+          "good": 700
         },
         {
           "storage": "16+512GB",
-          "good": 950
+          "good": 850
         }
       ]
     },
@@ -4247,7 +4243,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2400
+          "good": 2500
         }
       ]
     },
@@ -4257,7 +4253,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1600
+          "good": 1700
         }
       ]
     },
@@ -4267,7 +4263,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1500
+          "good": 1600
         }
       ]
     },
@@ -4287,7 +4283,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 5800
+          "good": 5600
         }
       ]
     },
@@ -4311,7 +4307,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+512GB",
-          "good": 4450
+          "good": 4350
         }
       ]
     },
@@ -4351,7 +4347,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 2000
+          "good": 1900
         }
       ]
     },
@@ -4405,19 +4401,19 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2600
+          "good": 2800
         },
         {
           "storage": "12+512GB",
-          "good": 2850
-        },
-        {
-          "storage": "16+512GB",
           "good": 3050
         },
         {
+          "storage": "16+512GB",
+          "good": 3250
+        },
+        {
           "storage": "16+1TB",
-          "good": 3550
+          "good": 3750
         }
       ]
     },
@@ -4437,15 +4433,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2850
+          "good": 2950
         },
         {
           "storage": "12+512GB",
-          "good": 3050
+          "good": 3250
         },
         {
           "storage": "16+1TB",
-          "good": 3750
+          "good": 3950
         }
       ]
     },
@@ -4477,7 +4473,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+1TB",
-          "good": 3400
+          "good": 3250
         }
       ]
     },
@@ -4557,7 +4553,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1500
+          "good": 1300
         }
       ]
     },
@@ -4617,15 +4613,15 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 2750
+          "good": 2550
         },
         {
           "storage": "12+512GB",
-          "good": 3000
+          "good": 2800
         },
         {
           "storage": "16+512GB",
-          "good": 3300
+          "good": 3000
         }
       ]
     },
@@ -5649,15 +5645,17 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+512GB",
-          "good": 3350
+          "good": 3050
         },
         {
           "storage": "16+512GB",
           "good": 3350
         },
         {
-          "storage": "16+1TB",
-          "good": 4500
+          "storage": "12+256GB",
+          "good": 2850,
+          "normal": 2850,
+          "damaged": 2850
         }
       ]
     },
@@ -5685,7 +5683,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "12+512GB",
-          "good": 2300
+          "good": 2050
         },
         {
           "storage": "16+512GB",
@@ -5703,7 +5701,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+256GB",
-          "good": 1950
+          "good": 2050
         }
       ]
     },
@@ -5773,7 +5771,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "16+256GB",
-          "good": 1250
+          "good": 1350
         }
       ]
     },
@@ -5786,8 +5784,8 @@ window.XMK_PRICES = {
           "good": 1200
         },
         {
-          "storage": "16+256GB",
-          "good": 1200
+          "storage": "16+512GB",
+          "good": 1300
         }
       ]
     },
@@ -5807,7 +5805,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "8+256GB",
-          "good": 1100
+          "good": 950
         },
         {
           "storage": "12+256GB",
@@ -5821,11 +5819,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "8+256GB",
-          "good": 800
+          "good": 900
         },
         {
           "storage": "12+256GB",
-          "good": 800
+          "good": 1000
         }
       ]
     },
@@ -5839,7 +5837,7 @@ window.XMK_PRICES = {
         },
         {
           "storage": "12+256GB",
-          "good": 750
+          "good": 900
         }
       ]
     },
@@ -5859,7 +5857,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "8+256GB",
-          "good": 900
+          "good": 800
         },
         {
           "storage": "12+256GB",
@@ -6233,7 +6231,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+1TB",
-          "good": 10800
+          "good": 10500
         }
       ]
     },
@@ -6275,11 +6273,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1600
+          "good": 1400
         },
         {
           "storage": "12+512GB",
-          "good": 1800
+          "good": 1550
         }
       ]
     },
@@ -6301,10 +6299,6 @@ window.XMK_PRICES = {
       "brand": "安卓手机",
       "model": "小米 15S Pro",
       "variants": [
-        {
-          "storage": "12+256GB",
-          "good": 2350
-        },
         {
           "storage": "16+512GB",
           "good": 1900
@@ -6397,7 +6391,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1250
+          "good": 1050
         },
         {
           "storage": "12+512GB",
@@ -6647,7 +6641,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "12+256GB",
-          "good": 1200
+          "good": 1000
         }
       ]
     },
@@ -6657,7 +6651,7 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 3400
+          "good": 3150
         }
       ]
     },
@@ -6717,11 +6711,11 @@ window.XMK_PRICES = {
       "variants": [
         {
           "storage": "16+512GB",
-          "good": 4350
+          "good": 4250
         },
         {
           "storage": "24+1TB",
-          "good": 4900
+          "good": 4800
         }
       ]
     }
