@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.xmk888.cn/sitemap.xml
