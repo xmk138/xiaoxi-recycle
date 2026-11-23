@@ -59,6 +59,10 @@
   const makerRules = [['华为', /^华为/], ['荣耀', /^荣耀/], ['OPPO', /^OPPO/i], ['vivo', /^vivo/i], ['小米', /^小米/], ['三星', /^三星/]];
   const makers = makerRules.filter(([, pattern]) => data.items.some(item => item.brand === '安卓手机' && pattern.test(item.model))).map(([name]) => name);
   function renderList() {
+    if (brand === '平板电脑' || brand === '手表') {
+      list.innerHTML = '<div class="empty laptop-empty"><strong>' + zh(brand) + '回收</strong><span>需要詳細報價，請微信諮詢。</span><button class="wechat-open" type="button">微信客服 ↗</button></div>';
+      return;
+    }
     const query = search.value.trim().toLowerCase();
     const makerRule = makerRules.find(([name]) => name === maker);
     const items = data.items.filter(item => item.brand === brand && (brand !== '安卓手机' || !makerRule || makerRule[1].test(item.model)) && (item.model.toLowerCase().includes(query) || zh(item.model).toLowerCase().includes(query)));
